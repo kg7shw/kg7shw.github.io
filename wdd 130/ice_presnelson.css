@@ -1,0 +1,82 @@
+body {
+    background-color: #fca6c9;
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+}
+.title {
+    font-size: 2em;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200em;
+}
+.title:hover {
+    color: black;
+}
+
+.list {
+    max-width: 425px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 2em;
+}
+
+.img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+#first-paragraph {
+    color: white;
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .75em;
+}
+
+#second-paragraph {
+    color: white;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.h1-quote {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    max-width: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+
+.third-paragraph {
+font-size: 12px;
+padding-bottom: -10px;
+margin-bottom: 0px;
+font-weight: 100px;
+font-family: 'Nunito Sans', sans-serif;
+max-width: 325px;
+margin: 0 auto;
+}
+
+.fourth-paragraph {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    padding-top: -10px;
+    margin-top: 0px;
+    font-weight: 300px;
+    max-width: 475px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
