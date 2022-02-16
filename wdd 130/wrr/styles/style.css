@@ -17,7 +17,10 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #ffffff;
+    background: #18201299;
+    color: none;
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
 }
 .home-grid {
     display: grid;
