@@ -1,7 +1,8 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a | */
+Fonts are separated by a | 
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+*/
 
 :root {
   /* change the values below to your colors from your palette: https://coolors.co/f77495-eecb06-c9c9c9-ffffff-000000 */
@@ -22,7 +23,7 @@ Fonts are separated by a | */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #F77495;
   --nav-link-color: black;
-  --nav-background-color: #C9C9C9;
+  --nav-background-color: #eecb06;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #F77495;
 }
