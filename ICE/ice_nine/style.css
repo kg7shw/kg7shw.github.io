@@ -39,6 +39,7 @@ h2 {
     background-color: white;
     padding-bottom: 0px;
     border-top: none;
+    border-radius: 30px;
 }
 .bottom {
     display: grid;
@@ -58,6 +59,47 @@ h2 {
 }
 .large {
     font-size: 1.5em;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-bottom: 0px;
+}
+.a {
+    font-size: 1.5em;
+    border-right: 1px solid white;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.b {
+    font-size: 1.5em;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.c {
+    font-size: 1.5em;
+    border-left: 1px solid white;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.d {
+    font-size: 1em;
+    border-right: 1px solid white;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.e {
+    font-size: 1em;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.f {
+    font-size: 1em;
+    border-left: 1px solid white;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 .image {
     border-top-left-radius: 30px;
