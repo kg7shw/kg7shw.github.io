@@ -1,4 +1,7 @@
 
+#import string
+
+
 number_children = int(input("How many children are there? "))
 number_adults = int(input("How many adults are there?  "))
 number_drinks = int(input("How many drinks are there? "))
@@ -11,18 +14,24 @@ price_drinks = float(input("What is the price of a drink? "))
 price_children = float(input("What is the price of a child's meal? "))
 price_adults = float(input("What is the price of a adults's meal? "))
 
-sales_tax_rate = input("What is the sales tax rate? ")
-sales_tax_rate = sales_tax_rate.split('%')
-sales_tax_rate = float(sales_tax_rate[0])
-
 percentage_tip = input("What is the tip percentage? ")
 percentage_tip = percentage_tip.split('%')
 percentage_tip = float(percentage_tip[0])
 
 
+#if percentage_tip == string.replace("!","")
+# while :
+#     print('Inncorrect input. Please input number only example: 0.06')
+#     persentage_tip = 0
+#     percentage_tip = float(input("What is the tip percentage? "))
+#     print(type(percentage_tip))
+
+#percentage_tip = float(percentage_tip)
+
+
 if percentage_tip > 1:
     percentage_tip /= 100
-
+sales_tax_rate = float(input("What is the sales tax rate? "))
 if sales_tax_rate > 1:
     sales_tax_rate /= 100
 
@@ -38,7 +47,7 @@ sales_tax = sales_tax_rate * subtotal
 total = subtotal + sales_tax + tip
 
 
-print()
+
 print(f"Subtotal: ${subtotal:.2f} ")
 print(f"Tip: ${tip:.2f} ")
 print(f"Sales Tax: ${sales_tax:.2f}")
