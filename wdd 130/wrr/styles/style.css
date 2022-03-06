@@ -23,7 +23,7 @@ body {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background: #18201295;
+    background: #6d492d;
 }
 .home-grid {
     display: grid;
@@ -49,6 +49,7 @@ h2 {
     margin: 0;
     font-size: 1em;
     padding-bottom: 20px;
+    padding-top: 15px;
 }
 
 .msg {
@@ -129,8 +130,8 @@ color: #ffffff;
 }
 
 .book, .join {
-    background-color: #d9c2a3;
-    color: black;
+    background-color: #6d492d;
+    color: white;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -141,9 +142,17 @@ color: #ffffff;
     width: 100%;
 }
 .card-img {
-    border: 10px solid #d9c2a3;
+    border: 10px solid #6d492d;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;  
+    box-shadow: 5px 5px 10px #6f7364;
+    height: 350px;
+    width: 425px;
+    margin-left: -50px;
+}
+p {
+    text-align: left;
+    margin-left: -10px;
+    font-size: 20px;
 }
 .card-img:hover {
     opacity: .6;
@@ -158,14 +167,20 @@ main section img {
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
+    width: 100%;
+    padding-bottom: 15px;
 }
 .camping-card {
     grid-column: 5/7;
     grid-row: 2/3;
+    width: 100%;
+    padding-bottom: 15px;
 }
 .rapids-card {
     grid-column: 8/10;
     grid-row: 2/3;
+    width: 100%;
+    padding-bottom: 15px;
 }
 #background {
     grid-column: 1/11;
