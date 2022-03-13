@@ -1,0 +1,68 @@
+@media only screen and (min-width: 600px) {
+    /* :root {
+        /* change the values below to your colors from your palette: https://coolors.co/f77495-eecb06-c9c9c9-ffffff-000000 */
+        /* --primary-color: #F77495;
+        --secondary-color: #EECB06;
+        --accent1-color: #C9C9C9;
+        --accent2-color: white;
+        --accent3-color: black; */
+    /* } 
+    */
+    body, h1, h2, h3, h4, h5, h6, ul, li,p {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+    body {
+        font-family: 'Playfair Display', serif;
+        font-family: 'Poppins', sans-serif;
+
+        
+    }
+    /* header {
+        display: grid;
+        grid-template-columns: 150px auto;
+    }
+    .main {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+    } */
+
+    .nav_header a{
+        text-align: center;
+        text-decoration: none;
+        padding: 35px;
+        color: black;
+        display: block;
+    }
+    
+    .nav_header {
+        display: flex;
+        justify-content: space-around;
+        background-color: #F77495;
+    }
+    
+    .nav_header a:hover {
+        background-color: #EECB06;
+    }
+
+    img {
+        width: 400px;
+        
+        border: 5px solid #F77495;
+    }
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
