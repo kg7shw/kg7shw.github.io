@@ -1,0 +1,84 @@
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    display: flex;
+    background-color: #F77495;
+    overflow: hidden;
+    justify-content: space-between;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    border-bottom: 3px solid #EECB06;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+  
+    color: white;
+    border-bottom: 3px solid #EECB06;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    
+  }
+  .logo {
+    width: 100px;
+  }
+
+  .hero_img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+
+  }
+
+  .about_section_img {
+    width: 500px;
+  }
+
+  .design_section_img {
+    width: 500px;
+  }
+
+  .about_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px 30px;
+    gap: 60px;
+    place-items: center;
+  
+  }
+  .about_section h2, .about_section p {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .about_section h2 {
+    align-self: flex-start;
+  }
+  .about_section p {
+    align-self: flex-end;
+    width: 500px;
+    justify-self: center;
+  }
+  .designs_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+
+  .designs_section h2, .designs_section p {
+    text-align: center;
+  }
