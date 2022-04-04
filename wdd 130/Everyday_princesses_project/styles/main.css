@@ -21,10 +21,16 @@ font-size: 17px;
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+/* .topnav a:hover {
 border-bottom: 3px solid #EECB06;
 color: black;
-}
+} */
+
+nav a:hover {
+    border-bottom: 3px solid #EECB06;
+    color: black;
+    }
+
 
 /* Add a color to the active/current link */
 .topnav a.active {
@@ -290,7 +296,11 @@ text-align: center;
 }
 
 
-
+.button:hover {
+    background-color: #F77495;
+    color: white;
+    cursor: pointer;
+}
 
 
 
@@ -344,4 +354,7 @@ footer {
     width: 300px;
     display: flex;
     justify-content: flex-end;
+}
+.social a {
+    margin-right:20px;
 }
