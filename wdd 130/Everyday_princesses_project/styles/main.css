@@ -260,8 +260,10 @@ padding: 15px;
 font-weight: bold;
 }
 
-.call_to_action_section button a:hover {
-background-color: #F77495;
+.call_to_action_section button:hover {
+    background-color: #F77495;
+    color: white;
+    cursor: pointer;
 }
 
 
